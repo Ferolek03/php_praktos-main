@@ -6,13 +6,13 @@
 }
 
 .blocks{
-	background-color: #D9B5B5;
+	background-color: #D9D9D9;
 	width: 772px;
-	height: 739px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
+    border-radius: 20px;
 }
 
 .block{
@@ -27,10 +27,10 @@
 
 .block > p {
 	font-size: 24px;
+
 }
 
 button{
-   background-color: grey;
    width: 420px;
    height: 50px;
    color: pink;
@@ -44,6 +44,11 @@ input{
    color: pink;
    border-radius: 10px;
    font-size: 20px;
+}
+
+h2{
+    font-size: 26px;
+    text-align: center;
 }
 
 </style>
@@ -61,10 +66,10 @@ if (!app()->auth::check()):
   	 <div class="blocks">
 	   
 		<div class="block">
-			<input type="text" name="login"  placeholder="login">
+			<input type="text" name="login"  placeholder="Логин">
 		</div>
 		<div class="block">
-			<input type="password" name="password"  placeholder="password">
+			<input type="password" name="password"  placeholder="Пароль">
 		</div>
 		<div class="block">
 			<button>Войти</button>

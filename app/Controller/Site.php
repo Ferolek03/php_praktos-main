@@ -32,8 +32,6 @@ class Site
                 'FirstName' => ['required'],
                 'LastName' => ['required'],
                 'MiddleName' => ['required'],
-                'login' => ['required', 'unique:users,login'],
-                'password' => ['required']
             ], [
                 'required' => 'Поле :field пусто',
                 'unique' => 'Поле :field должно быть уникально'

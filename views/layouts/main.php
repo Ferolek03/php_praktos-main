@@ -56,22 +56,22 @@
 	<div class="header">
 		<div class="nav">
 			<div class="logo">
-                <a href="<?= app()->route->getUrl('/hello')?>">Телефонный узел связи ТОМСК</a>
+                <a href="<?= app()->route->getUrl('/hello')?>">Прием Пациентов</a>
 			</div>
 			<div class="link">
 			<?php
         if (!app()->auth::check()):
             ?>
-            <a href="<?= app()->route->getUrl('/signup')?>">SIGN UP</a>
-            <a href="<?= app()->route->getUrl('/login')?>">LOGIN</a>	 
+            <a href="<?= app()->route->getUrl('/signup')?>">Регистрация</a>
+            <a href="<?= app()->route->getUrl('/login')?>">Вход</a>
 		<?php
         else:
             ?>
 			<?php
 if (app()->auth::User()->id_role === 1 || 2):
     ?>
-			<a href="<?= app()->route->getUrl('/add_user')?>">ADD_ABONENT</a>
-			<a href="<?= app()->route->getUrl('/profile')?>">ABONENT</a>
+			<a href="<?= app()->route->getUrl('/add_user')?>">Добавления на прием</a>
+			<a href="<?= app()->route->getUrl('/profile')?>">Профиль</a>
 			<?php
         endif;
         ?>

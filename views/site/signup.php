@@ -1,5 +1,5 @@
 
-<h2>Регистрация нового Абонента</h2>
+<h2>Регистрация нового администратора</h2>
 
 <h3><?= $message ?? ''; ?></h3>
 <div class="center">
@@ -16,27 +16,23 @@
          <input type="text"name="MiddleName" required placeholder="Отчество">
 			</div>
 			<div class="block">
-         <input type="text"name="Birthday" required placeholder="Дата рождения">
-			</div>
-			<div class="block">
-         <input type="text"name="Room_ID" required placeholder="Помещение">
+         <input type="date"name="Birthday" required placeholder="Дата рождения">
 			</div>
 
 			<div class="block">
-         <input type="text"name="login" required placeholder="login">
+         <input type="text"name="login" required placeholder="Логин">
 			</div>
          <div class="block">
-         <input type="password"name="password" required placeholder="password">
+         <input type="password"name="password" required placeholder="Пароль">
 			</div>
          
 		<div class="block">
 			<select name="id_role" id="id_role">
-							<option value="1">Администратор</option>
-                            <option value="2">Абонент</option>
-                            
-                            
+							<option value="1">Гл.Администратор</option>
+                            <option value="2">Администратор</option>
             </select>
 		</div>
+
 		<div class="block">
 				<button>REGISTER</button>
 			</div>
@@ -50,12 +46,9 @@
 	justify-content: center;
 }
 
-.signup{
-	color: #fff;
-	font-size: 20px;
-}
+
 button{
-   background-color: grey;
+   /*background-color: grey;*/
    width: 420px;
    height: 50px;
    color: pink;
@@ -71,15 +64,14 @@ input{
    font-size: 20px;
 }
 .blocks{
-	background-color: #D9B5B5;
+	background-color: #D9D9D9;
 	width: 772px;
 	height: 739px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-   margin: 0;
-   border-radius: 30px;
-	/* justify-content: center; */
+    margin: 0;
+    border-radius: 30px;
 }
 
 .block{
@@ -90,10 +82,16 @@ input{
 	align-items: center;
 	justify-content: center;
 	margin-top: 20px;
-   border-radius: 20px;
+    border-radius: 20px;
+
 }
 
 .block > p {
 	font-size: 24px;
+}
+
+h2{
+    font-size: 26px;
+    text-align: center;
 }
 </style>

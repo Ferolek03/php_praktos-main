@@ -7,7 +7,7 @@
 if (app()->auth::User()->id_role === 1):
     ?>
 	<div class="vidpodraz">
-				<p>Номер абонента</p> 
+				<p>Добавление кабинета</p>
 			</div>
 			<div class="create">
 			

@@ -48,7 +48,7 @@
 
             <div class="block">
                 <?php
-                echo('Выбор номера:');
+                echo('Выбор кабинета:');
                 echo '<select id="" name="number">';
                 foreach ($usernums as $Usernum) {
                     echo "<option value=\"$Usernum->number\">"
@@ -59,22 +59,7 @@
                 ?>
             </div>
 
-			<div class="block">
-         <input type="text"name="login" required placeholder="login">
-			</div>
-         <div class="block">
-         <input type="password"name="password" required placeholder="password">
-			</div>
-         
-		<div class="block">
-			<select name="id_role" id="id_role">
-							<option value="1">Администратор</option>
-                     <option value="2">Менеджер</option>
-                     <option value="3">Абонент</option>
-                            
-                            
-            </select>
-		</div>
+
 		<div class="block">
 				<button>REGISTER</button>
 			</div>
@@ -109,7 +94,7 @@ input{
    font-size: 20px;
 }
 .blocks{
-	background-color: #D9B5B5;
+	background-color: #D9D9D9;
 	width: 772px;
 	height: 739px;
 	display: flex;
