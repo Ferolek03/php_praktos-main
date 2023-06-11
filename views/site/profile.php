@@ -1,6 +1,6 @@
 <div class="centres">
     <div class="avatar">
-        <p>AVATAR</p>
+        <p>Аватарка</p>
     </div>
 	<div class="bloco">
 	<?php
@@ -11,7 +11,7 @@ if (app()->auth::User()->id_role === 1):
 			</div>
 			<div class="create">
 			
-		<button><a href="user_num">создать</a></button>
+		<button><a href="user_num">Создать</a></button>
 <?php		
 endif;
 ?>
@@ -56,10 +56,11 @@ endif;
     .main_block{
         display: flex;
         align-items: center;
-        margin-left: 20px;
+        margin-left: 900px;
 		width: 600px;
 		border: 2px solid black;
-		margin-top: 50px;
+        margin-top: 50px;
+
     }
 	.vidpodraz{
 	width: 279px;
@@ -67,7 +68,7 @@ endif;
 	background-color: #D9D9D9;
 	margin-right: 20px;
 	font-size: 20px;
-	margin-left: 40px;
+	margin-left: 930px;
 }
 .bloco{
 	display: flex;
@@ -88,7 +89,7 @@ button{
 
 button > a{
 	text-decoration: none;
-	color: pink;
+	color: white;
 }
 .create{
 	width: 236px;
@@ -111,11 +112,12 @@ button > a{
         font-size: 24px;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 40px;
+        margin-left: 1080px;
     }
 
     .avatar > p {
         margin: 0;
         padding-top: 50px;
     }
+
 </style>
