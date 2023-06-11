@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="block">
-				<button>REGISTER</button>
+				<button>Регистрация</button>
 			</div>
 		</div>
 </form>
@@ -48,10 +48,9 @@
 
 
 button{
-   /*background-color: grey;*/
    width: 420px;
    height: 50px;
-   color: pink;
+   color: red;
    font-size: 25px;
    border-radius: 10px;
 }
@@ -59,7 +58,7 @@ input{
    padding: 10px;
    width: 400px;
    border: 0;
-   color: pink;
+   color: grey;
    border-radius: 10px;
    font-size: 20px;
 }

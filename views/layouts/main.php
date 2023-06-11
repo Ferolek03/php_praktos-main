@@ -14,7 +14,7 @@
 .header{
     margin-top: -20px;
 	height: 100px;
-	background-color: #B7F0B6;
+	background-color: #64C7BB;
 }
 .nav{
 	display: flex;
