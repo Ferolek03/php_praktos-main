@@ -24,10 +24,6 @@
     justify-content: center;
 }
 
-.signup{
-	color: #fff;
-	font-size: 20px;
-}
 button{
    background-color: grey;
    width: 420px;
@@ -45,9 +41,9 @@ input{
    font-size: 20px;
 }
 .blocks{
-	background-color: #D9B5B5;
+	background-color: #D9D9D9;
 	width: 772px;
-	height: 739px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

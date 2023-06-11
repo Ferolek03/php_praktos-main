@@ -9,7 +9,7 @@
 			</div>
 			<div class="block">
                 <?php
-                echo('симптомы:');
+                echo('Симптомы:');
                 echo '<select id="" name="name">';
                 foreach ($vidrooms as $Vidroom) {
                     echo "<option value=\"$Vidroom->name\">"
@@ -37,15 +37,11 @@
     justify-content: center;
 }
 
-.signup{
-	color: #fff;
-	font-size: 20px;
-}
 button{
    background-color: grey;
    width: 420px;
    height: 50px;
-   color: pink;
+   color: white;
    font-size: 25px;
    border-radius: 10px;
 }
@@ -58,13 +54,14 @@ input{
    font-size: 20px;
 }
 .blocks{
-	background-color: #D9B5B5;
+	background-color: #D9D9D9;
 	width: 772px;
-	height: 739px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-   margin: 0;
+
+   margin-top: 300px;
    border-radius: 30px;
 }
 
@@ -75,7 +72,7 @@ input{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 75px;
+	margin-top: 55px;
    border-radius: 20px;
 }
 

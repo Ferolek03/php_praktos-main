@@ -11,7 +11,7 @@ if (app()->auth::User()->id_role === 1):
 			</div>
 			<div class="create">
 			
-		<button><a href="subdivision_add">создать</a></button>
+		<button><a href="subdivision_add">Создать</a></button>
 <?php		
 endif;
 ?>
@@ -24,7 +24,7 @@ if (app()->auth::User()->id_role === 1):
 			</div>
 			<div class="create">
 			
-		<button><a href="vid_subdivision_add">создать</a></button>
+		<button><a href="vid_subdivision_add">Создать</a></button>
 <?php		
 endif;
 ?>
@@ -66,6 +66,8 @@ endif;
 	align-items: center;
 	text-align: center;	
 	margin-top: -19px;
+    justify-content: center;
+
 }
 .all {
             display: flex;
@@ -97,7 +99,6 @@ endif;
         .create {
             width: 236px;
             height: 56px;
-            background-color: #AD8B79;
             padding-left: 20px;
         }
 
@@ -111,6 +112,7 @@ endif;
 	background-color: #D9D9D9;
 	margin-right: 20px;
 	font-size: 20px;
+    border-radius: 30px;
 	
 }
 .vidpodraz{
@@ -120,20 +122,17 @@ endif;
 	margin-right: 20px;
 	font-size: 20px;
 	margin-left: 40px;
-	
+	border-radius: 30px;
 }
 
-.create{
-	width: 236px;
-	height: 56px;
-	background-color: #D9D9D9;
-}
+
 
 .bloc{
 	margin-top: 100px;
 	width: 1032px;
 	height: 637px;
 	background-color: #D9D9D9;
+    border-radius: 30px;
 }
 
 button{
@@ -148,7 +147,7 @@ button{
 
 button > a{
 	text-decoration: none;
-	color: pink;
+	color: white;
 }
 
 </style>
