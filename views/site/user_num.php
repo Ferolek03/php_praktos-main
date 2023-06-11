@@ -5,7 +5,7 @@
     <div class="centr">
 		<div class="blocks">
 			<div class="block">
-                <input type="tel" name="number" placeholder="Номер">
+                <input type="tel" name="number" placeholder="Номер кабинета">
 			</div>
 			
 			

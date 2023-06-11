@@ -8,7 +8,7 @@
 if (app()->auth::User()->id_role === 1):
     ?>
 			<div class="podraz">
-				<p>Помещение</p> 
+				<p>Диагноз</p> 
 			</div>
 			<div class="create">
 			
@@ -21,7 +21,7 @@ endif;
 if (app()->auth::User()->id_role === 1):
     ?>
 		<div class="vidpodraz">
-				<p>Вид Помещения</p> 
+				<p>Симптомы</p> 
 			</div>
 			<div class="create2">
 			

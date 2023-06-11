@@ -7,7 +7,7 @@
 if (app()->auth::User()->id_role === 1):
     ?>
 			<div class="podraz">
-				<p>Подразделение</p> 
+				<p>Добавление врача </p> 
 			</div>
 			<div class="create">
 			
@@ -20,7 +20,7 @@ endif;
 if (app()->auth::User()->id_role === 1):
     ?>
 			<div class="vidpodraz">
-				<p>Вид подразделения</p> 
+				<p>Специальность врача</p> 
 			</div>
 			<div class="create">
 			

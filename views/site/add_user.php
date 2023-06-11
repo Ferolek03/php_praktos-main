@@ -16,13 +16,14 @@
          <input type="text"name="MiddleName" required placeholder="Отчество">
 			</div>
 			<div class="block">
+            <h1>Дата Приема</h1>
          <input type="date"name="Birthday" required placeholder="Дата рождения">
 			</div>
 			
 
 			<div class="block">
                 <?php
-                echo('Выбор помещения:');
+                echo('Предполагаемый диагноз:');
                 echo '<select id="" name="NameRoom">';
                 foreach ($rooms as $Room) {
                     echo "<option value=\"$Room->NameRoom\">"
@@ -35,7 +36,7 @@
 
             <div class="block">
                 <?php
-                echo('Выбор подразделения:');
+                echo('Выбор врача:');
                 echo '<select id="" name="NameSubdivision">';
                 foreach ($subdivisions as $Subdivision) {
                     echo "<option value=\"$Subdivision->NameSubdivision\">"

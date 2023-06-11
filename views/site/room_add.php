@@ -9,7 +9,7 @@
 			</div>
 			<div class="block">
                 <?php
-                echo('Вид:');
+                echo('симптомы:');
                 echo '<select id="" name="name">';
                 foreach ($vidrooms as $Vidroom) {
                     echo "<option value=\"$Vidroom->name\">"
@@ -20,18 +20,7 @@
                 ?>
             </div>
 
-			<div class="block">
-                <?php
-                echo('Подразделение:');
-                echo '<select id="" name="Mame">';
-                foreach ($subdivisions as $Subdivision) {
-                    echo "<option value=\"$Subdivision->Name\">"
-                        . $Subdivision-> Name.
-                        "</option>";
-                }
-                echo '</select>';
-                ?>
-            </div>
+			
 			
          <div class="block">
 				<button>Создать</button>
