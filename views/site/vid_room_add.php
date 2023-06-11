@@ -28,7 +28,7 @@ button{
    background-color: grey;
    width: 420px;
    height: 50px;
-   color: pink;
+   color: white;
    font-size: 25px;
    border-radius: 10px;
 }
@@ -36,7 +36,7 @@ input{
    padding: 10px;
    width: 400px;
    border: 0;
-   color: pink;
+   color: grey;
    border-radius: 10px;
    font-size: 20px;
 }
@@ -46,8 +46,9 @@ input{
 	height: 400px;
 	display: flex;
 	flex-direction: column;
+
 	align-items: center;
-   margin: 0;
+   margin-top: 300px;
    border-radius: 30px;
 }
 
@@ -58,7 +59,7 @@ input{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 175px;
+	margin-top: 75px;
    border-radius: 20px;
 }
 

@@ -5,7 +5,7 @@
     <div class="centr">
 		<div class="blocks">
 			<div class="block">
-         <input type="text" name="Name"required placeholder="Фио">
+         <input type="text" name="Name"required placeholder="ФИО">
 			</div>
 			<div class="block">
                 <?php
@@ -36,15 +36,11 @@
     justify-content: center;
 }
 
-.signup{
-	color: #fff;
-	font-size: 20px;
-}
 button{
    background-color: grey;
    width: 420px;
    height: 50px;
-   color: pink;
+   color: white;
    font-size: 25px;
    border-radius: 10px;
 }
@@ -52,18 +48,18 @@ input{
    padding: 10px;
    width: 400px;
    border: 0;
-   color: pink;
+   color: grey;
    border-radius: 10px;
    font-size: 20px;
 }
 .blocks{
-	background-color: #D9B5B5;
+	background-color: #D9D9D9;
 	width: 772px;
-	height: 739px;
+	height: 500px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-   margin: 0;
+   margin-top: 300px;
    border-radius: 30px;
 }
 
@@ -74,7 +70,7 @@ input{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 130px;
+	margin-top: 75px;
    border-radius: 20px;
 }
 

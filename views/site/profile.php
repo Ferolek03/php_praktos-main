@@ -69,6 +69,7 @@ endif;
 	margin-right: 20px;
 	font-size: 20px;
 	margin-left: 930px;
+        border-radius: 30px;
 }
 .bloco{
 	display: flex;
@@ -94,7 +95,7 @@ button > a{
 .create{
 	width: 236px;
 	height: 56px;
-	background-color: #D9D9D9;
+
 }
     .bloc {
         width: 200px;

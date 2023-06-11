@@ -77,7 +77,7 @@ if (app()->auth::User()->id_role === 1 || 2):
         ?>
 			<a href="<?= app()->route->getUrl('/room')?>">Диагнозы</a>
 			<a href="<?= app()->route->getUrl('/subdivision')?>">Список врачей</a>	 
-			<a href="<?= app()->route->getUrl('/logout')?>">LOGOUT(<?= app()->auth::User()->login ?>)</a>
+			<a href="<?= app()->route->getUrl('/logout')?>">Выход(<?= app()->auth::User()->login ?>)</a>
 		<?php
         endif;
         ?>
