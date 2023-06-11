@@ -12,7 +12,7 @@ if (app()->auth::User()->id_role === 1):
 			</div>
 			<div class="create">
 			
-		<button><a href="room_add">создать</a></button>
+		<button><a href="room_add">Cоздать</a></button>
 <?php		
 endif;
 ?>
@@ -25,7 +25,7 @@ if (app()->auth::User()->id_role === 1):
 			</div>
 			<div class="create2">
 			
-		<button><a href="vid_room_add">создать</a></button>
+		<button><a href="vid_room_add">Создать</a></button>
 <?php		
 endif;
 ?>
@@ -63,6 +63,7 @@ endif;
 	<style>
 .bloco{
 	display: flex;
+    justify-content: center;
 	align-items: center;
 	text-align: center;	
 	margin-top: -19px;
@@ -98,6 +99,7 @@ endif;
 	background-color: #D9D9D9;
 	margin-right: 20px;
 	font-size: 20px;
+    border-radius: 30px;
 }
 .vidpodraz{
 	width: 279px;
@@ -106,12 +108,13 @@ endif;
 	margin-right: 20px;
 	font-size: 20px;
 	margin-left: 40px;
+    border-radius: 30px;
 }
 
 .create{
 	width: 236px;
 	height: 56px;
-	background-color: #D9D9D9;
+
 }
 
 .bloc{
@@ -119,13 +122,14 @@ endif;
 	width: 1032px;
 	height: 637px;
 	background-color: #D9D9D9;
+    border-radius: 30px;
 }
 
 button{
    background-color: grey;
    width: 200px;
    height: 35px;
-   color: pink;
+   color: white;
    font-size: 25px;
    border-radius: 10px;
    margin-top: 10px;
@@ -133,7 +137,7 @@ button{
 
 button > a{
 	text-decoration: none;
-	color: pink;
+	color: white;
 }
 
 </style>

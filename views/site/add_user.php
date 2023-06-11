@@ -1,5 +1,5 @@
 
-<h2>Регистрация нового Абонента</h2>
+<h2>Добавление на прием</h2>
 
 <h3><?= $message ?? ''; ?></h3>
 <div class="center">
@@ -16,7 +16,7 @@
          <input type="text"name="MiddleName" required placeholder="Отчество">
 			</div>
 			<div class="block">
-            <h1>Дата Приема</h1>
+            <h4>Дата Приема</h4>
          <input type="date"name="Birthday" required placeholder="Дата рождения">
 			</div>
 			
@@ -62,7 +62,7 @@
 
 
 		<div class="block">
-				<button>REGISTER</button>
+                    <button>Записать</button>
 			</div>
 		</div>
 </form>
@@ -74,15 +74,16 @@
 	justify-content: center;
 }
 
-.signup{
-	color: #fff;
-	font-size: 20px;
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
 }
 button{
-   background-color: grey;
+   background-color: white;
    width: 420px;
    height: 50px;
-   color: pink;
+   color: grey;
    font-size: 25px;
    border-radius: 10px;
 }
@@ -90,7 +91,7 @@ input{
    padding: 10px;
    width: 400px;
    border: 0;
-   color: pink;
+   color: grey;
    border-radius: 10px;
    font-size: 20px;
 }
@@ -103,7 +104,6 @@ input{
 	align-items: center;
    margin: 0;
    border-radius: 30px;
-	/* justify-content: center; */
 }
 
 .block{
@@ -117,10 +117,10 @@ input{
    border-radius: 20px;
 }
 select {
-        background-color: grey;
+        background-color: white;
         width: 420px;
         height: 40px;
-        color: pink;
+        color: grey;
         font-size: 25px;
         border-radius: 10px;
 		align-items: center;

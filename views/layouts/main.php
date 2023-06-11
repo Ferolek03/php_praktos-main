@@ -38,7 +38,7 @@
 	font-size: 24px;
 }
 .link >a:hover{
-	color: pink;
+	color: white;
 }
 .center{
 	margin-top: 100px;
