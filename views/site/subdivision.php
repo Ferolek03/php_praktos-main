@@ -45,6 +45,16 @@ endif;
                     ?>
                 </div>
 
+                <div class="block_room">
+                    <?php
+
+                    foreach ($users as $User) {
+                        echo '<tr>';
+                        echo '<div class="inside_block">' . '<td>' . '<h5>Пациент</h5>' . '<b>' . 'Пациент - ' . $User->FirstName . ' ' . $User->LastName . ' ' . $User->MiddleName . '<br>' . 'Врач - ' . $User->NameSubdivision . '<br>' . '</b>' . '</td>' . '</div>';
+                    }
+                    ?>
+
+                </div>
             </div>
         </div>
 
