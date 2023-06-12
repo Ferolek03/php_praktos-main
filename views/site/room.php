@@ -38,21 +38,10 @@ endif;
 
                     foreach ($rooms as $Room) {
                         echo '<tr>';
-                        echo '<div class="inside_block">' . '<td>' . '<h5>Помещения</h5>' . '<b>' . 'имя помещения - ' . $Room->NameRoom . '</b>' . '</td>' . '</div>';
+                        echo '<div class="inside_block">' . '<td>' . '<h5>Диагнозы</h5>' . '<b>' . 'Название диагноза - ' . $Room->NameRoom . '</b>' . '</td>' . '</div>';
 
                     }
                     ?>
-                </div>
-
-                <div class="block_room">
-                    <?php
-
-                    foreach ($users as $User) {
-                        echo '<tr>';
-                        echo '<div class="inside_block">' . '<td>' . '<h5>Пользователи</h5>' . '<b>' . 'пользователь - ' . $User->login . '<br>' . 'помещение - ' . $User->NameRoom . '<br>' . '</b>' . '</td>' . '</div>';
-                    }
-                    ?>
-
                 </div>
             </div>
 

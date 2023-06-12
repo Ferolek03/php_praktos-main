@@ -39,22 +39,12 @@ endif;
 
                     foreach ($subdivisions as $Subdivision) {
                         echo '<tr>';
-                        echo '<div class="inside_block">' . '<td>' . '<h5>Подразделение</h5>' . '<b>' . 'имя подразделения - ' . $Subdivision->NameSubdivision . '</b>' . '</td>' . '</div>';
+                        echo '<div class="inside_block">' . '<td>' . '<h5>Специальность</h5>' . '<b>' . 'ФИО врача - ' . $Subdivision->NameSubdivision . '</b>' . '</td>' . '</div>';
 
                     }
                     ?>
                 </div>
 
-                <div class="block_room">
-                    <?php
-
-                    foreach ($users as $User) {
-                        echo '<tr>';
-                        echo '<div class="inside_block">' . '<td>' . '<h5>Пользователи</h5>' . '<b>' . 'пользователь - ' . $User->login . '<br>' . 'подразделение - ' . $User->NameSubdivision . '<br>' . '</b>' . '</td>' . '</div>';
-                    }
-                    ?>
-
-                </div>
             </div>
         </div>
 

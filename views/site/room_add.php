@@ -5,12 +5,12 @@
     <div class="centr">
 		<div class="blocks">
 			<div class="block">
-         <input type="text" name="Name"required placeholder="Название">
+         <input type="text" name="NameRoom"required placeholder="Название">
 			</div>
 			<div class="block">
                 <?php
                 echo('Симптомы:');
-                echo '<select id="" name="name">';
+                echo '<select id="" name="Vid">';
                 foreach ($vidrooms as $Vidroom) {
                     echo "<option value=\"$Vidroom->name\">"
                         . $Vidroom->name.

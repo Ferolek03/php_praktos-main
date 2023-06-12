@@ -25,10 +25,7 @@
     justify-content: center;
 }
 
-.signup{
-	color: #fff;
-	font-size: 20px;
-}
+
 button{
    background-color: grey;
    width: 420px;
@@ -41,7 +38,7 @@ input{
    padding: 10px;
    width: 400px;
    border: 0;
-   color: pink;
+   color: grey;
    border-radius: 10px;
    font-size: 20px;
 }
