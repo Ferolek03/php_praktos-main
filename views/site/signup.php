@@ -28,8 +28,7 @@
          
 		<div class="block">
 			<select name="id_role" id="id_role">
-							<option value="1">Гл.Администратор</option>
-                            <option value="2">Администратор</option>
+                            <option value="1">Администратор</option>
             </select>
 		</div>
 

@@ -1,12 +1,12 @@
 {
-    "name": "indeyec/php_praktos",
+    "name": "Ferolek03/php_praktos-main",
     "description": "praktika",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "indeyec",
-            "email": "vlad.shilov03@mail.ru"
+            "name": "Ferolek03",
+            "email": "melkonyaynsam@gmail.com"
         }
     ],
     "minimum-stability": "dev",

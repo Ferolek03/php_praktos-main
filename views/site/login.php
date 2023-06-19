@@ -66,10 +66,10 @@ if (!app()->auth::check()):
   	 <div class="blocks">
 	   
 		<div class="block">
-			<input type="text" name="login"  placeholder="Логин">
+			<input type="text" name="login"  placeholder="Логин" required>
 		</div>
 		<div class="block">
-			<input type="password" name="password"  placeholder="Пароль">
+			<input type="password" name="password"  placeholder="Пароль" required>
 		</div>
 		<div class="block">
 			<button>Войти</button>
